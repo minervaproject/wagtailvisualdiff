@@ -2,7 +2,7 @@ from builtins import str
 from django.http import HttpResponse
 from django.template import loader
 from django.shortcuts import get_object_or_404
-from models import PageRevisionScreenshot
+from .models import PageRevisionScreenshot
 from wagtail.wagtailcore.models import Page, PageRevision
 from django.core.exceptions import ObjectDoesNotExist
 from django.utils.encoding import smart_str
